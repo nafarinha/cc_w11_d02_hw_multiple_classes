@@ -30,6 +30,13 @@ public class LibraryTest {
     }
 
     @Test
+    public void addBookToCollectionFullCapacity() {
+        library.setCapacity(true);
+        library.addBook(book1);
+        assertEquals(0, library.bookCount());
+    }
+
+    @Test
     public void checkCapacity() {
         library.setCapacity(true);
         assertTrue(library.getCapacity());
