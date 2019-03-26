@@ -39,5 +39,11 @@ public class BookTest {
       assertEquals("The Two Towers", book1.getTitle());
    }
 
+   @Test
+   public void hasGenre() {
+      book1.addGenre("Adventure");
+      assertEquals("Adventure", book1.getGenre());
+   }
+
 
 }
