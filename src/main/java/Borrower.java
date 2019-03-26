@@ -13,6 +13,10 @@ public class Borrower {
 
     public void addBorrowedBook(Book newBook) {
         this.borrowedBooks.add(newBook);
+    }
 
+    public void borrow(Library library, Book newBorrowedBook) {
+        Book borrowedBook = library.lend(newBorrowedBook);
+        this.addBorrowedBook(borrowedBook);
     }
 }
