@@ -33,5 +33,11 @@ public class BookTest {
        assertEquals("Tolkien", book1.getAuthor());
    }
 
+   @Test
+   public void hasTitle() {
+      book1.addTitle("The Two Towers");
+      assertEquals("The Two Towers", book1.getTitle());
+   }
+
 
 }

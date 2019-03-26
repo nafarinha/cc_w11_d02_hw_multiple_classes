@@ -22,4 +22,8 @@ public class Book {
     public String getAuthor() {
         return this.author;
     }
+
+    public String getTitle() {
+        return this.title;
+    }
 }
