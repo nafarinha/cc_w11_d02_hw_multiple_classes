@@ -4,8 +4,8 @@ Create your own library class with an internal collection of books. :white_check
 
 ## MVP
 * Books should have title, author and genre. :white_check_mark:
-* Write a method to count the number of books in the library.
-* Write a method to add a book to the library stock.
+* Write a method to count the number of books in the library. :white_check_mark:
+* Write a method to add a book to the library stock. :white_check_mark:
 * Add a capacity to the library and write a method to check if stock is full before adding a book.  
 
 ## Extensions:

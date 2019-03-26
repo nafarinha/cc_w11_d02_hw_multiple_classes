@@ -12,5 +12,9 @@ public class Library {
         return bookCollection.size();
     }
 
+    public void addBook(Book newBook) {
+        this.bookCollection.add(newBook);
+    }
+
 
 }
