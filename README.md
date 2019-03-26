@@ -6,7 +6,7 @@ Create your own library class with an internal collection of books. :white_check
 * Books should have title, author and genre. :white_check_mark:
 * Write a method to count the number of books in the library. :white_check_mark:
 * Write a method to add a book to the library stock. :white_check_mark:
-* Add a capacity to the library and write a method to check if stock is full before adding a book.  
+* Add a capacity to the library and write a method to check if stock is full before adding a book. :white_check_mark:
 
 ## Extensions:
 * Add a third class which interacts with the other two. E.g. you could add a `Borrower` with a method that takes a `Book` and moves to the `Borrower`'s collection.
