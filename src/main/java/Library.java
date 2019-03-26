@@ -27,5 +27,10 @@ public class Library {
         return this.fullCapacity;
     }
 
+    public Book lend(Book lentBook) {
+        this.bookCollection.remove(lentBook);
+        return lentBook;
+    }
+
 
 }
