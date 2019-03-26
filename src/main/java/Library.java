@@ -16,7 +16,7 @@ public class Library {
     }
 
     public void addBook(Book newBook) {
-        this.bookCollection.add(newBook);
+        if (!this.fullCapacity) this.bookCollection.add(newBook);
     }
 
     public void setCapacity(boolean newStatus) {
